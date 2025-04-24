@@ -9,79 +9,92 @@
       background-color: black;
       color: white;
       font-family: Arial, sans-serif;
-      padding: 2rem;
+      text-align: center;
     }
+
     h1 {
       color: red;
-      text-align: center;
       font-size: 3rem;
+      margin-top: 30px;
     }
-    p.tagline {
-      text-align: center;
+
+    h2 {
+      color: white;
+      font-size: 2rem;
+      margin-top: 40px;
+    }
+
+    .tagline {
       font-weight: bold;
       font-size: 1.2rem;
-      color: lightgray;
+      margin: 10px auto 60px;
+      max-width: 700px;
     }
+
     .models {
       display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
       justify-content: center;
-      margin-top: 3rem;
+      flex-wrap: wrap;
+      gap: 20px;
     }
+
     .card {
-      border: 2px solid red;
-      border-radius: 1rem;
-      padding: 1rem;
-      max-width: 250px;
       background-color: #111;
-      text-align: center;
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 20px;
+      width: 260px;
     }
-    .card h2 {
-      color: red;
-    }
+
     .card img {
-      max-width: 100%;
-      border-radius: 0.5rem;
-      margin-bottom: 1rem;
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .model-name {
+      color: red;
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+
+    .price {
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 1.1rem;
     }
   </style>
 </head>
 <body>
-
   <h1>Hellmouse</h1>
   <p class="tagline">Built for fear. Engineered for power. Forged in madness.</p>
 
+  <h2>Hellmouse Models</h2>
   <div class="models">
     <div class="card">
-      <img src="hellmouse.jpg" alt="Hellmouse">
-      <h2>Hellmouse</h2>
+      <img src="hellmouse.jpg" alt="Hellmouse" />
+      <div class="model-name">Hellmouse</div>
       <p>Demon 170-powered street terror. Carbon touches. Targa top. Pure rage.</p>
-      <strong>Starting at $120,000</strong>
+      <p class="price">Starting at $120,000</p>
     </div>
-
     <div class="card">
-      <img src="hellmouse-x.jpg" alt="Hellmouse X">
-      <h2>Hellmouse X</h2>
+      <img src="hellmouse-x.jpg" alt="Hellmouse X" />
+      <div class="model-name">Hellmouse X</div>
       <p>Single turbo boost added. Flame tune. More bite, same mouse.</p>
-      <strong>Starting at $185,000</strong>
+      <p class="price">Starting at $185,000</p>
     </div>
-
     <div class="card">
-      <img src="hellmouse-x2.jpg" alt="Hellmouse X2">
-      <h2>Hellmouse X2</h2>
+      <img src="placeholder.jpg" alt="Hellmouse X2" />
+      <div class="model-name">Hellmouse X2</div>
       <p>Twin turbo, blower combo. All carbon widebody. Drag legend.</p>
-      <strong>Starting at $320,000</strong>
+      <p class="price">Starting at $320,000</p>
     </div>
-
     <div class="card">
-      <img src="hellmouse-x2r.jpg" alt="Hellmouse X2R">
-      <h2>Hellmouse X2R</h2>
+      <img src="placeholder.jpg" alt="Hellmouse X2R" />
+      <div class="model-name">Hellmouse X2R</div>
       <p>Top Fuel-class monster. Twin turbos, dual superchargers, parachute-equipped.</p>
-      <strong>Starting at $1,100,000</strong>
+      <p class="price">Starting at $1,100,000</p>
     </div>
   </div>
-
 </body>
 </html>
-
