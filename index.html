@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hellmouse - Official Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+    .hero-section {
+      background: url('https://via.placeholder.com/1500x500') center center no-repeat;
+      background-size: cover;
+      height: 500px;
+    }
+    .model-card {
+      transition: transform 0.3s ease;
+    }
+    .model-card:hover {
+      transform: translateY(-10px);
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+  <header class="hero-section flex items-center justify-center text-center text-5xl font-bold text-red-600">
+    <div>
+      <h1>Hellmouse</h1>
+      <p class="text-xl text-gray-300 mt-2">Built for fear. Engineered for power. Forged in madness.</p>
+    </div>
+  </header>
+
+  <section class="container mx-auto p-6">
+    <h2 class="text-3xl font-semibold text-center text-white mb-8">Hellmouse Models</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      <div class="model-card bg-zinc-900 border-red-600 border-2 p-6 rounded-lg">
+        <h3 class="text-2xl font-bold text-red-500">Hellmouse</h3>
+        <p class="text-gray-300 mb-4">Demon 170-powered street terror. Carbon touches. Targa top. Pure rage.</p>
+        <p class="text-lg font-bold text-white">Starting at $120,000</p>
+      </div>
+      
+      <div class="model-card bg-zinc-900 border-red-600 border-2 p-6 rounded-lg">
+        <h3 class="text-2xl font-bold text-red-500">Hellmouse X</h3>
+        <p class="text-gray-300 mb-4">Single turbo boost added. Flame tune. More bite, same mouse.</p>
+        <p class="text-lg font-bold text-white">Starting at $185,000</p>
+      </div>
+      
+      <div class="model-card bg-zinc-900 border-red-600 border-2 p-6 rounded-lg">
+        <h3 class="text-2xl font-bold text-red-500">Hellmouse X2</h3>
+        <p class="text-gray-300 mb-4">Twin turbo, blower combo. All carbon widebody. Drag legend.</p>
+        <p class="text-lg font-bold text-white">Starting at $320,000</p>
+      </div>
+      
+      <div class="model-card bg-zinc-900 border-red-600 border-2 p-6 rounded-lg">
+        <h3 class="text-2xl font-bold text-red-500">Hellmouse X2R</h3>
+        <p class="text-gray-300 mb-4">Top Fuel-class monster. Twin turbos, dual superchargers, parachute-equipped.</p>
+        <p class="text-lg font-bold text-white">Starting at $1,100,000</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center mt-16 text-gray-600 text-sm">
+    <p>&copy; 2025 T&N Motors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
